@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "1.0.0",
+  "description": "My solutions for the AoC 2018 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SengitU/advent-of-code-2018.git"
+  },
+  "author": "Ugurcan Sengit <ugurcansengit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SengitU/advent-of-code-2018/issues"
+  },
+  "homepage": "https://github.com/SengitU/advent-of-code-2018#readme"
+}
