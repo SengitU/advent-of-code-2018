@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "build/js/"
+        "outDir": "build/js",
+        "rootDir": "src"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]
