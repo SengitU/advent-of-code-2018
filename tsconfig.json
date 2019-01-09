@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "outDir": "build/js",
-        "rootDir": "src"
+        "rootDir": "src",
+        "target": "es6"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]
