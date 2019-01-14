@@ -4,6 +4,8 @@
   "description": "My solutions for the AoC 2018 challenge",
   "main": "index.js",
   "scripts": {
+    "lint": "tslint `find ./src -iname *.ts`",
+    "lint:fix": "tslint `find ./src -iname *.ts` --fix",
     "clean": "rm -rf build",
     "build": "tsc",
     "test": "npm run clean && npm run build && kavun `find ./build -iname *.spec.js`"
@@ -20,7 +22,10 @@
   "homepage": "https://github.com/SengitU/advent-of-code-2018#readme",
   "dependencies": {
     "@types/node": "^10.12.18",
-    "typescript": "^3.2.2",
     "kavun": "^3.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
   }
 }
