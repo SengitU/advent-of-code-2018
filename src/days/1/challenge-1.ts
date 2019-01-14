@@ -1,2 +1,2 @@
-export default (frequencies: String): number => frequencies.split(',').reduce((accumulator, frequency) =>
+export default (frequencies: string): number => frequencies.split(",").reduce((accumulator, frequency) =>
   Number(frequency) + accumulator, 0);
