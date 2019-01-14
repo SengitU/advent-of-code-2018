@@ -4,8 +4,6 @@
   "description": "My solutions for the AoC 2018 challenge",
   "main": "index.js",
   "scripts": {
-    "lint:js": "eslint ./src/**/*.ts",
-    "lint-fix:js": "eslint ./src/**/*.ts --fix",
     "clean": "rm -rf build",
     "build": "tsc",
     "test": "npm run clean && npm run build && kavun `find ./build -iname *.spec.js`"
@@ -23,11 +21,6 @@
   "dependencies": {
     "@types/node": "^10.12.18",
     "typescript": "^3.2.2",
-    "kavun": "^3.0.0" 
-  },
-  "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "kavun": "^3.0.0"
   }
 }
